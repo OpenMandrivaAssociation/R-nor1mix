@@ -9,10 +9,9 @@ Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.1-3.tar.gz
-Requires:         R-stats R-graphics 
-Requires:         R-cluster 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-stats R-graphics
-BuildRequires:    R-cluster 
+Requires:         R-stats R-graphics R-cluster 
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-stats R-graphics R-cluster
 
 %description
 Onedimensional Normal Mixture Models Classes, for, e.g., density
