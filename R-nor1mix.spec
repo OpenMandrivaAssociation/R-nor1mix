@@ -1,6 +1,8 @@
 %global packname  nor1mix
 %global rlibdir  %{_libdir}/R/library
 
+%define debug_package %{nil}
+
 Name:             R-%{packname}
 Version:          1.1_3
 Release:          1
