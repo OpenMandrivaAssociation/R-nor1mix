@@ -4,13 +4,13 @@
 %define debug_package %{nil}
 
 Name:             R-%{packname}
-Version:          1.1_3
-Release:          2
+Version:          1.1.4
+Release:          1
 Summary:          Normal (1-d) Mixture Models (S3 Classes and Methods)
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.1-3.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/nor1mix_1.1-4.tar.gz
 Requires:         R-stats R-graphics 
 Requires:         R-cluster 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-stats R-graphics
@@ -51,4 +51,5 @@ rm -f %{buildroot}%{rlibdir}/R.css
 + Revision: 776259
 - Import R-nor1mix
 - Import R-nor1mix
+
 
