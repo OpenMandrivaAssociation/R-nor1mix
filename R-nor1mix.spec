@@ -5,7 +5,7 @@
 
 Name:             R-%{packname}
 Version:          1.1.4
-Release:          1
+Release:          2
 Summary:          Normal (1-d) Mixture Models (S3 Classes and Methods)
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
