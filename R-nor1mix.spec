@@ -9,7 +9,7 @@ Release:          2
 Summary:          Normal (1-d) Mixture Models (S3 Classes and Methods)
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/nor1mix_1.1-4.tar.gz
 Requires:         R-stats R-graphics 
 Requires:         R-cluster 
